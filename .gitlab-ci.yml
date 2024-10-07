@@ -1,0 +1,11 @@
+stages:
+  - test
+  - deploy
+
+test:
+  script:
+    - python -m unittest discover tests/
+
+deploy:
+  script:
+    - echo "Deploying ETL Pipeline"
