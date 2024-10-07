@@ -1,0 +1,6 @@
+python-dotenv
+pandas
+yfinance
+sqlalchemy
+boto3
+psycopg2
